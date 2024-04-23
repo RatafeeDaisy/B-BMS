@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="container" :style='{"minHeight":"100vh","alignItems":"center","background":"url(http://codegen.caihongy.cn/20221201/760046d0cca14ba09053b57a5cd9d3af.jpg)","display":"flex","width":"100%","backgroundSize":"100% 100%","backgroundPosition":"center center","backgroundRepeat":"no-repeat","justifyContent":"center"}'>
+    <div class="container" :style='{"minHeight":"100vh","alignItems":"center","background":"url(https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)","display":"flex","width":"100%","backgroundSize":"100% 100%","backgroundPosition":"center center","backgroundRepeat":"no-repeat","justifyContent":"center"}'>
 
       <el-form :style='{"minHeight":"853px","padding":"40px 0px 60px 0px","margin":"40px auto 0 auto","borderRadius":"4px","background":"url(http://codegen.caihongy.cn/20221201/39914ca6890e4a7eb7035a0f85f78ca2.png) no-repeat center top","width":"850px","backgroundSize":"auto 100%","height":"auto"}'>
-        <div v-if="true" :style='{"width":"100%","margin":"150px 0px 30px 0px","lineHeight":"44px","fontSize":"24px","color":"#fff","textAlign":"center"}' class="title-container">基于spring boot的民宿预约管理系统的设计与实现登录</div>
+        <div v-if="true" :style='{"width":"100%","margin":"150px 0px 30px 0px","lineHeight":"44px","fontSize":"24px","color":"#fff","textAlign":"center"}' class="title-container">民宿管理系统登录</div>
         <div v-if="loginType==1" class="list-item" :style='{"width":"80%","margin":"0 auto 40px 220px","alignItems":"center","flexWrap":"wrap","display":"flex"}'>
           <div v-if="false" class="lable" :style='{"width":"64px","lineHeight":"44px","fontSize":"14px","color":"#160f53"}'>用户名</div>
           <input :style='{"padding":"0 10px","borderColor":"#d0cddb","color":"#ccc","borderRadius":"20px","borderWidth":"1px","background":"none","width":"360px","fontSize":"14px","borderStyle":"solid","height":"40px"}' placeholder="请输入用户名" name="username" type="text" v-model="rulesForm.username">
@@ -178,7 +178,7 @@ export default {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-      background: url(http://codegen.caihongy.cn/20221201/760046d0cca14ba09053b57a5cd9d3af.jpg);
+      background: url(https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
         
   .list-item /deep/ .el-input .el-input__inner {
 		border-radius: 20px;

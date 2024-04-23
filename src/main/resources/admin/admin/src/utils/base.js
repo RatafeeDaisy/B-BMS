@@ -9,7 +9,7 @@ const base = {
     },
     getProjectName(){
         return {
-            projectName: "基于spring boot的民宿预约管理系统的设计与实现"
+            projectName: "民宿管理系统"
         } 
     }
 }

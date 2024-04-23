@@ -1,8 +1,8 @@
 <template>
 	<div>
-		<div class="container" :style='{"minHeight":"100vh","alignItems":"center","background":"url(http://codegen.caihongy.cn/20221201/760046d0cca14ba09053b57a5cd9d3af.jpg)","display":"flex","width":"100%","backgroundSize":"100% 100%","backgroundPosition":"center center","backgroundRepeat":"no-repeat","justifyContent":"center"}'>
+		<div class="container" :style='{"minHeight":"100vh","alignItems":"center","background":"url(https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)","display":"flex","width":"100%","backgroundSize":"100% 100%","backgroundPosition":"center center","backgroundRepeat":"no-repeat","justifyContent":"center"}'>
 			<el-form v-if="pageFlag=='register'" :style='{"minHeight":"853px","padding":"40px 0px 60px 20px","margin":"40px auto 0 auto","borderRadius":"0px","background":"url(http://codegen.caihongy.cn/20221201/39914ca6890e4a7eb7035a0f85f78ca2.png) no-repeat center top","width":"850px","backgroundSize":"auto 100%","height":"auto"}' ref="rgsForm" class="rgs-form" :model="rgsForm">
-				<div v-if="true" :style='{"width":"100%","margin":"80px 0px 10px 0px","lineHeight":"40px","fontSize":"24px","color":"#fff","textAlign":"center"}' class="title">基于spring boot的民宿预约管理系统的设计与实现注册</div>
+				<div v-if="true" :style='{"width":"100%","margin":"80px 0px 10px 0px","lineHeight":"40px","fontSize":"24px","color":"#fff","textAlign":"center"}' class="title">民宿管理系统注册</div>
 				<el-form-item :style='{"width":"80%","padding":"0","margin":"0 auto 8px 220px","flexWrap":"wrap","display":"block","height":"auto"}' class="list-item" v-if="tableName=='huiyuan'">
 					<div v-if="false" :style='{"width":"100%","lineHeight":"44px","fontSize":"14px","color":"rgba(64, 158, 255, 1)"}' class="lable">用户名</div>
 					<el-input  v-model="ruleForm.yonghuming"  autocomplete="off" placeholder="用户名"  type="text"  />
@@ -301,7 +301,7 @@ export default {
 <style lang="scss" scoped>
 	.container {
 	  position: relative;
-	  background: url(http://codegen.caihongy.cn/20221201/760046d0cca14ba09053b57a5cd9d3af.jpg);
+	  background: url(https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 
 		.el-date-editor.el-input {
 		  width: 100%;

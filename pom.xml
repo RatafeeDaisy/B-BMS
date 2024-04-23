@@ -95,9 +95,9 @@
 		</dependency>
 		<dependency>
 		    <groupId>com.microsoft.sqlserver</groupId>
-		    <artifactId>sqljdbc4</artifactId>
-		    <scope>4.0</scope>
-		    <version>4.0</version>
+		    <artifactId>mssql-jdbc</artifactId>
+		    <scope>test</scope>
+		    <version>6.2.0.jre8</version>
 		</dependency>
 		
 		<dependency>

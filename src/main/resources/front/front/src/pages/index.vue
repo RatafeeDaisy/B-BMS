@@ -2,7 +2,7 @@
 	<div class="main-containers">
 		<div class="top-container" :style='{"boxShadow":"0 0px 0px rgba(90, 180, 80, .2)","padding":"0 7%","alignItems":"center","display":"flex","justifyContent":"space-between","overflow":"hidden","top":"0","left":"0","background":"#434343","width":"100%","position":"fixed","height":"44px","zIndex":"1002"}'>
 			<img v-if='true' :style='{"width":"44px","objectFit":"cover","borderRadius":"100%","display":"none","height":"44px"}' src='http://codegen.caihongy.cn/20201114/7856ba26477849ea828f481fa2773a95.jpg'>
-			<div v-if="true" :style='{"width":"calc(100% - 770px)","margin":"0 0 0 410px","fontSize":"18px","color":"#e4e4e4","textAlign":"center","background":"none"}'>基于spring boot的民宿预约管理系统的设计与实现</div>
+			<div v-if="true" :style='{"width":"calc(100% - 770px)","margin":"0 0 0 410px","fontSize":"18px","color":"#e4e4e4","textAlign":"center","background":"none"}'>民宿管理系统</div>
 			<div>
 				<div v-if="false" :style='{"color":"#fff","fontSize":"16px","display":"inline-block"}'>0753-1234567</div>
 				<div v-if="Token" :style='{"color":"#fff","fontSize":"16px","display":"inline-block"}'>{{username}}</div>
